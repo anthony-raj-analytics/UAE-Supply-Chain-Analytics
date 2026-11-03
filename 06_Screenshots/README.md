@@ -1,6 +1,6 @@
 # 🚢 UAE Supply Chain Analytics
 
-### End-to-End Data Analytics | SQL | Python | Power BI
+### End-to-End Data Analytics | Python | SQL | PostgreSQL | Power BI
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -13,27 +13,27 @@
 
 ---
 
-## 📌 Project Overview
+## 📌 1. Project Overview
 
-The **UAE Supply Chain Analytics** project is an end-to-end data analytics and business intelligence solution designed to analyze supply chain operations, sales performance, warehouse inventory, and supplier efficiency.
+The **UAE Supply Chain Analytics** project is an end-to-end data analytics and business intelligence project focused on analyzing supply chain operations, sales performance, warehouse inventory, and supplier performance.
 
-Using Python, Excel, PostgreSQL, SQL, and Power BI, this project transforms raw supply chain data into structured information, interactive dashboards, and meaningful business insights.
+The project uses Python, Microsoft Excel, PostgreSQL, SQL, and Power BI to transform raw supply chain data into structured datasets, analytical findings, and interactive dashboards.
 
-The solution focuses on improving business visibility, monitoring key performance indicators (KPIs), and supporting data-driven operational decisions.
+The main objective is to provide business visibility through key performance indicators (KPIs), identify operational patterns, and support data-driven decision-making.
 
-## 🎯 Business Objectives
+## 🎯 2. Business Objectives
 
-* Analyze overall sales and revenue performance.
+* Analyze sales and revenue performance.
 * Identify top-performing products and regions.
-* Monitor warehouse inventory and stock levels.
-* Analyze inventory replenishment requirements.
+* Monitor warehouse inventory levels.
+* Analyze stock distribution and reorder requirements.
 * Evaluate supplier performance and lead times.
 * Compare promotional and non-promotional sales.
 * Develop interactive dashboards for business monitoring.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ 3. Tools & Technologies
 
 | Technology       | Application                               |
 | ---------------- | ----------------------------------------- |
@@ -50,9 +50,9 @@ The solution focuses on improving business visibility, monitoring key performanc
 
 ---
 
-## 🏗️ Project Architecture
+## 🏗️ 4. Project Architecture
 
-The project is organized into four major analytical layers, from raw data preparation to business intelligence reporting.
+The project follows an end-to-end analytics workflow, covering data collection, preparation, analysis, database management, and business intelligence reporting.
 
 ```mermaid
 flowchart TB
@@ -70,16 +70,17 @@ flowchart TB
 
 ### Project Workflow
 
-* **Data Collection:** Obtain the supply chain dataset from Kaggle.
-* **Data Preparation:** Inspect, clean, and transform the raw data.
-* **Exploratory Analysis:** Explore data patterns and identify trends using Python.
-* **Database Management:** Organize and query structured data using PostgreSQL.
-* **Business Intelligence:** Build interactive Power BI dashboards.
-* **Insight Generation:** Present business metrics and findings to support decision-making.
+* **Data Collection:** Obtain the original supply chain dataset from Kaggle.
+* **Data Preparation:** Inspect, clean, and transform the raw dataset.
+* **Exploratory Data Analysis:** Explore data patterns and trends using Python.
+* **Database Management:** Organize and manage structured data using PostgreSQL.
+* **SQL Analysis:** Query and analyze business-related information.
+* **Data Visualization:** Develop interactive Power BI dashboards.
+* **Business Intelligence:** Present KPIs and analytical findings to support business decisions.
 
 ---
 
-## 📁 Repository Structure
+## 📁 5. Repository Structure
 
 ```text
 UAE-Supply-Chain-Analytics/
@@ -106,15 +107,15 @@ UAE-Supply-Chain-Analytics/
 
 ---
 
-# 📊 Power BI Dashboard
+# 📊 6. Power BI Dashboard
 
 The Power BI report contains four analytical pages covering executive performance, sales, warehouse inventory, and supplier operations.
 
-## 1. Executive Overview
+## 6.1 Executive Overview
 
-**Objective:** Provide an overall view of supply chain business performance through key metrics and visual summaries.
+**Objective:** Provide a consolidated overview of supply chain business performance through key metrics and visual summaries.
 
-![Executive Overview](06_Screenshots/01_Executive_Overview.png)
+<img width="100%" alt="Executive Overview Dashboard" src="https://github.com/user-attachments/assets/1bfc7b3b-f32d-4ffc-9ff1-970b866f5f58" />
 
 **Key Metrics**
 
@@ -132,15 +133,15 @@ The Power BI report contains four analytical pages covering executive performanc
 
 **Business Value**
 
-Provides management with a consolidated view of key business indicators and helps monitor overall performance.
+Provides management with a consolidated view of key business indicators to monitor overall performance.
 
 ---
 
-## 2. Sales Performance
+## 6.2 Sales Performance
 
 **Objective:** Analyze revenue generation, product performance, and sales trends.
 
-![Sales Performance](06_Screenshots/02_Sales_Performance.png)
+<img width="100%" alt="Sales Performance Dashboard" src="https://github.com/user-attachments/assets/0d2a570f-ea59-49e6-abfb-41e963b7662a" />
 
 **Analysis Areas**
 
@@ -156,11 +157,11 @@ Helps identify sales patterns, understand product contribution, and evaluate pro
 
 ---
 
-## 3. Warehouse & Inventory
+## 6.3 Warehouse & Inventory
 
 **Objective:** Monitor inventory distribution, warehouse stock levels, and replenishment requirements.
 
-![Warehouse Inventory](06_Screenshots/03_Warehouse_Inventory.png)
+<img width="100%" alt="Warehouse and Inventory Dashboard" src="https://github.com/user-attachments/assets/282bc7fe-56e7-4b08-9078-c32fe2e2871e" />
 
 **Analysis Areas**
 
@@ -176,11 +177,11 @@ Supports inventory monitoring, helps identify potential stock shortages, and imp
 
 ---
 
-## 4. Supplier Performance
+## 6.4 Supplier Performance
 
 **Objective:** Evaluate supplier efficiency, lead times, order quantities, and cost-related performance.
 
-![Supplier Performance](06_Screenshots/04_Supplier_Performance.png)
+<img width="100%" alt="Supplier Performance Dashboard" src="https://github.com/user-attachments/assets/7731f911-7e70-4885-8887-318401c834c8" />
 
 **Analysis Areas**
 
@@ -196,7 +197,7 @@ Helps compare supplier performance and supports procurement and supplier evaluat
 
 ---
 
-## 📈 Key Performance Indicators
+## 📈 7. Key Performance Indicators
 
 The following KPIs are displayed in the project dashboard.
 
@@ -208,29 +209,32 @@ The following KPIs are displayed in the project dashboard.
 | Total Inventory  |            43M |
 | Total Suppliers  |             10 |
 
-*Note: KPI values should be interpreted based on the dataset and dashboard filters.*
+*Note: KPI values reflect the reported dashboard figures and may change depending on applied filters.*
 
 ---
 
-## 💡 Business Insights & Applications
+## 💡 8. Business Insights & Applications
 
-### Sales Performance
+### Sales & Revenue Analysis
 
 * Monitor revenue trends and product contribution.
 * Compare promotional and non-promotional sales.
 * Identify products contributing to revenue.
+* Understand sales performance across periods.
 
 ### Inventory Management
 
 * Monitor stock distribution across warehouses.
-* Review replenishment requirements.
-* Identify potential inventory shortages.
+* Review inventory replenishment requirements.
+* Identify potential stock shortages.
+* Support inventory planning.
 
-### Supplier Evaluation
+### Supplier Performance
 
 * Compare supplier lead times and costs.
-* Analyze order quantities.
-* Review supplier contribution and efficiency.
+* Analyze supplier order quantities.
+* Review supplier contribution.
+* Support supplier evaluation.
 
 ### Business Decision Support
 
@@ -241,16 +245,16 @@ The following KPIs are displayed in the project dashboard.
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🧠 9. Skills Demonstrated
 
 * Data Collection and Preparation
 * Data Cleaning and Transformation
 * Exploratory Data Analysis (EDA)
 * Python Programming
 * Pandas and NumPy
-* Advanced Excel
+* Microsoft Excel
 * SQL Querying
-* PostgreSQL
+* PostgreSQL Database Management
 * Power BI Dashboard Development
 * Data Visualization
 * KPI Analysis
@@ -258,18 +262,18 @@ The following KPIs are displayed in the project dashboard.
 
 ---
 
-## 📂 Dataset Information
+## 📂 10. Dataset Information
 
+**Dataset Name:** High-Dimensional Supply Chain Inventory Dataset
 **Source:** Kaggle
-**Dataset:** UAE Supply Chain Dataset
 
-**Original Dataset Link:** Add the original Kaggle dataset URL here.
+**Original Dataset:** [View Dataset on Kaggle](https://www.kaggle.com/datasets/ziya07/high-dimensional-supply-chain-inventory-dataset)
 
-The dataset was used for data preparation, exploratory analysis, SQL querying, and Power BI dashboard development.
+The dataset is used for data preparation, exploratory analysis, SQL querying, and Power BI dashboard development.
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 11. About Me
 
 ### Anthony Raj I
 
@@ -277,7 +281,7 @@ The dataset was used for data preparation, exploratory analysis, SQL querying, a
 
 📍 Abu Dhabi, UAE
 
-I am interested in transforming raw data into meaningful business insights through data analytics, reporting, and interactive business intelligence dashboards.
+I am passionate about transforming raw data into meaningful business insights through data analytics, reporting, and interactive business intelligence dashboards.
 
 **Technical Skills**
 
@@ -302,4 +306,3 @@ I am interested in transforming raw data into meaningful business insights throu
   <br>
   Feedback and suggestions are welcome.
 </p>
-
